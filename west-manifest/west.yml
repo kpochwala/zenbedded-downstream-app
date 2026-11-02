@@ -1,0 +1,14 @@
+manifest:
+  projects:
+    - name: zenbedded
+      url: https://github.com/ros-controls/zenbedded
+      revision: zenbedded-as-zephyr-module
+      path: external/zenbedded
+      import:
+        path-prefix: external
+
+    - name: zephyr
+      url: https://github.com/zephyrproject-rtos/zephyr
+      revision: v4.4.2
+      import:
+        path-prefix: external
